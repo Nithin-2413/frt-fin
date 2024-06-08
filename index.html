@@ -1,591 +1,252 @@
 <!DOCTYPE html>
-<html lang="en-US" dir="ltr">
+<html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://nithin123.blob.core.windows.net/css/styles.css">
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 
+</head>
 
-    <!-- ===============================================-->
-    <!--    Document Title-->
-    <!-- ===============================================-->
-    <title>FINACIO | FINTECH &amp; </title>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+<div class="navbar-brand">
+    <span class="company-icon"><img src="https://nithin123.blob.core.windows.net/healtbot/5.png" alt="Company Icon"></span>
+    <span class="company-name">HealthCo</span>
+</div>
 
-
-    <!-- ===============================================-->
-    <!--    Favicons-->
-    <!-- ===============================================-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
-    <link rel="manifest" href="assets/img/favicons/manifest.json">
-    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
-    <meta name="theme-color" content="#ffffff">
-
-
-    <!-- ===============================================-->
-    <!--    Stylesheets-->
-    <!-- ===============================================-->
-    <link href="assets/css/theme.css" rel="stylesheet" />
-
-  </head>
-
-
-  <body>
-
-    <!-- ===============================================-->
-    <!--    Main Content-->
-    <!-- ===============================================-->
-    <main class="main" id="top">
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-4 d-block" data-navbar-on-scroll="data-navbar-on-scroll">
-        <div class="container">
-          <a class="navbar-brand fw-bold fs-3 text-light" href="index.html">Finacio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base">
-              <li class="nav-item px-2" data-anchor="data-anchor">
-                <a class="nav-link fw-medium active" aria-current="page" href="#home">Home</a>
-              </li>
-              <li class="nav-item px-2" data-anchor="data-anchor">
-                <a class="nav-link" href="#aboutUs">About Us</a>
-              </li>
-              <li class="nav-item px-2" data-anchor="data-anchor">
-                <a class="nav-link" href="#clients">Clients</a>
-              </li>
-              <li class="nav-item px-2" data-anchor="data-anchor">
-                <a class="nav-link" href="#faq">FAQ</a>
-              </li>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#stats">Our Stats</a></li>
+                <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
             </ul>
+        </div>
+    </nav>
 
-            <form class="ps-lg-5">
-              <!-- Modify the href attribute to point to the anchor ID of the "Contact Us" section -->
-              <a class="btn btn-primary order-1 order-lg-0" href="#contactUs">Contact Us</a>
-            </form>
-          </div>
-        </div>
-      </nav>
-      <section id="home">
-        <div class="bg-holder"
-          style="background-image:url(assets/img/gallery/header-bg.png);background-position:center;background-size:cover;">
-        </div>
-    
-        <div class="container">
-          <div class="row align-items-center min-vh-50 min-vh-sm-100">
-            <div class="col-md-7 col-lg-6 text-md-start text-center">
-              <h1 class="text-light fs-6 fs-xl-8 font-cursive fw-normal mb-5">Your Trusted<br />FinTech Solutions
-                <br />Partner.</h1>
-              <!-- Modify the href attribute to point to the anchor ID of the "Contact Us" section -->
-              <a class="btn btn-danger" href="#contactUs">GET STARTED</a>
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://nithin123.blob.core.windows.net/healtbot/111.jpg" class="d-block w-100" alt="...">
             </div>
-          </div>
+            <div class="carousel-item">
+                <img src="https://nithin123.blob.core.windows.net/healtbot/2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://nithin123.blob.core.windows.net/healtbot/33.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://nithin123.blob.core.windows.net/healtbot/4.jpg" class="d-block w-100" alt="...">
+            </div>
         </div>
-      </section>
-    </main>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- About Us Section -->
+<section id="aboutUs" class="section">
+    <div class="container">
+        <h2>About HealthCo</h2>
+        <p>We are a dedicated health service provider committed to improving the well-being of our community. At
+            HealthCo, we believe in delivering high-quality healthcare services and empowering individuals to take
+            control of their health.</p>
+        <p>Our mission is to provide accessible and affordable healthcare solutions to everyone. We strive to create a
+            positive impact on people's lives by promoting preventive care, leveraging technology, and fostering
+            innovation in the healthcare industry.</p>
+        <!-- Include an image for stats -->
+    </div>
+</section>
+
+    <!-- Our Stats Section -->
+    <div id="stats" class="section">
+        <div class="container">
+            <h2>Our Stats</h2>
+            <p>Here are some key statistics that showcase our impact:</p>
+            <!-- Include an image for stats -->
+            <img src="https://nithin123.blob.core.windows.net/healtbot/3.jpg" alt="Stats Image" class="img-fluid">
+        </div>
+    </div>
+
+<section id="testimonials" class="section bg-light">
+    <div class="container">
+        <h2>Testimonials</h2>
+        <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Testimonial Items -->
+                <div class="carousel-item active">
+                    <p class="font-italic">"Using HealthCo's innovative solutions has drastically improved our patient
+                        care and satisfaction. Their support team is exceptional!"</p>
+                </div>
+                <div class="carousel-item">
+                    <p class="font-italic">"HealthCo's platform has been a game-changer for our practice, enabling
+                        seamless integration with multiple systems and providing real-time insights."</p>
+                </div>
+                <!-- Add more testimonials here -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#testimonialCarousel"
+                data-slide="prev"></button>
+            <button class="carousel-control-next" type="button" data-target="#testimonialCarousel"
+                data-slide="next"></button>
+        </div>
+    </div>
+</section>
+
+
     
-    <!-- Add the "Contact Us" section with its anchor ID -->
-    <section id="contactUs" class="py-5">
-      <!-- Your contact information here -->
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h2 class="text-center mb-4">Contact Us</h2>
-            <p class="text-center">Address: Nithin Yadav</p>
-            <p class="text-center">Email: nithinyadav.masam@gmail.com</p>
-            <p class="text-center">Feel free to reach us!</p>
-          </div>
+    <!-- Add the "FAQ" section with its anchor ID -->
+    <!-- Add the "FAQ" section with its anchor ID -->
+    <section id="faq" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Frequently Asked Questions</h2>
+                    <div class="accordion" id="accordionExample">
+                        <!-- FAQ Items -->
+                        <div class="accordion-item mb-2 rounded overflow-hidden">
+                            <h2 class="accordion-header" id="heading1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">What are the
+                                    best foods for a healthy diet?</button>
+                            </h2>
+                            <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">The best foods for a healthy diet include fruits, vegetables,
+                                    whole grains, lean proteins, and healthy fats. These provide essential nutrients and
+                                    help maintain overall health and well-being.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-2 rounded overflow-hidden">
+                            <h2 class="accordion-header" id="heading2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">How much
+                                    exercise should I do each week?</button>
+                            </h2>
+                            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">Adults should aim for at least 150 minutes of moderate-intensity
+                                    aerobic activity or 75 minutes of vigorous-intensity activity each week, along with
+                                    muscle-strengthening activities on two or more days per week.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-2 rounded overflow-hidden">
+                            <h2 class="accordion-header" id="heading3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">What are the
+                                    benefits of drinking enough water?</button>
+                            </h2>
+                            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">Drinking enough water is essential for maintaining bodily
+                                    functions, regulating body temperature, flushing out toxins, and supporting overall
+                                    health. It can also help improve skin health, aid digestion, and prevent dehydration.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-2 rounded overflow-hidden">
+                            <h2 class="accordion-header" id="heading4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">What is the
+                                    recommended amount of sleep for adults?</button>
+                            </h2>
+                            <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">Adults should aim for 7-9 hours of sleep per night for optimal
+                                    health and well-being. Sufficient sleep is essential for cognitive function, mood
+                                    regulation, immune system function, and overall physical health.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-2 rounded overflow-hidden">
+                            <h2 class="accordion-header" id="heading5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">How can I
+                                    reduce stress in my daily life?</button>
+                            </h2>
+                            <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">To reduce stress, try practicing relaxation techniques such as
+                                    deep breathing, meditation, yoga, or tai chi. Engage in regular physical activity,
+                                    maintain a healthy diet, get enough sleep, and prioritize time for activities you enjoy.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
 
 
-
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section id="aboutUs">
-      
+    <!-- Contact Us Section -->
+    <div id="contact" class="section">
         <div class="container">
-          <div class="row align-items-center">
-            <div class="col-md-6 text-center mb-6 mb-md-0 order-0 order-md-1"><img class="w-100"
-                src="assets/img/gallery/about-us.png" alt="About Us Image" /></div>
-            <div class="col-md-6 text-center text-md-start mb-6">
-              <h4 class="text-danger">ABOUT US</h4>
-              <p class="my-5 fs-1 pe-xl-8">We are a leading FinTech company dedicated to transforming financial services
-                through innovative technology solutions. Our mission is to enhance financial inclusion and empower businesses
-                with secure and efficient payment processing solutions.</p>
-              <div class="card card-span bg-soft-primary border-start border-primary border-5 mt-3">
-                <div class="card-body">
-                  <h4 class="lh-base px-lg-5 py-3">
-                    How do we support businesses in navigating the complexities of digital payments and financial technology?
-                  </h4>
+            <h2>Contact Us</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name">
                 </div>
-              </div>
-            </div>
-          </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </div>
-        <!-- end of .container-->
-      
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
-
-
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section>
-
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-md-6 text-center mb-6 mb-md-0"><img class="w-100" src="assets/img/gallery/how-to-apply.png" alt="..." /></div>
-            <div class="col-md-6 text-center text-md-start mb-6 px-4">
-              <h4 class="text-danger text-uppercase">How to apply</h4>
-              <p class="my-5 fs-1 pe-xl-7">When applying for a traffic permit, there are certain requirements that you must meet that are included in the examination: requirements for professional knowledge, solid establishment, good reputation and financial resources. Important to remember is to confirm your application for a traffic permit by the company's company signer or CEO.</p>
-            </div>
-          </div>
-        </div>
-        <!-- end of .container-->
-
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
-
-<section class="bg-primary-gradient" id="faq">
-  <div class="bg-holder"
-    style="background-image:url(assets/img/gallery/faq-bg.png);background-position:right;background-size:contain;">
-  </div>
-  <!--/.bg-holder-->
-
-  <div class="container">
-    <div class="row flex-center">
-      <div class="col-md-6">
-        <h4 class="text-danger text-uppercase">faq</h4>
-        <h1 class="font-cursive fw-normal mb-5">Questions and Answers <br class="d-none d-lg-block" />on FinTech and
-          Payments:<br class="d-none d-lg-block" /></h1>
-      </div>
-      <div class="col-md-6"><img class="w-100" src="assets/img/gallery/faq.png" alt="..." /></div>
     </div>
-    <div class="row flex-center py-4">
-      <div class="col-md-6">
-        <div class="accordion" id="accordionExample1">
-          <div class="accordion-item mb-2 rounded overflow-hidden">
-            <h2 class="accordion-header" id="heading1">
-              <button class="accordion-button px-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
-                aria-expanded="true" aria-controls="collapse1"><span
-                  class="mb-0 text-start fs-0 text-900 fw-medium">What is FinTech?</span></button>
-            </h2>
-            <div class="accordion-collapse collapse show" id="collapse1" aria-labelledby="heading1"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body bg-primary-gradient px-4">FinTech, short for Financial Technology, refers to
-                the integration of technology into offerings by financial services companies to improve their use and
-                delivery to consumers.</div>
-            </div>
-          </div>
-          <div class="accordion-item mb-2 rounded overflow-hidden">
-            <h2 class="accordion-header" id="heading2">
-              <button class="accordion-button px-4 collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2"><span
-                  class="mb-0 text-start fs-0 text-900 fw-medium">How can I ensure the security of my online
-                  payments?</span></button>
-            </h2>
-            <div class="accordion-collapse collapse" id="collapse2" aria-labelledby="heading2"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body bg-primary-gradient px-4">To ensure security, use strong, unique passwords for
-                your financial accounts, enable two-factor authentication, and avoid using public Wi-Fi for
-                transactions. Also, use secure payment gateways that comply with industry security standards.</div>
-            </div>
-          </div>
-          <div class="accordion-item mb-2 rounded overflow-hidden">
-            <h2 class="accordion-header" id="heading3">
-              <button class="accordion-button px-4 collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3"><span
-                  class="mb-0 text-start fs-0 text-900 fw-medium">What are digital wallets?</span></button>
-            </h2>
-            <div class="accordion-collapse collapse" id="collapse3" aria-labelledby="heading3"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body bg-primary-gradient px-4">Digital wallets, also known as e-wallets, are
-                electronic devices or online services that allow individuals to make electronic transactions. This can
-                include purchasing items online with a computer or using a smartphone to purchase something at a store.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item mb-2 rounded overflow-hidden">
-            <h2 class="accordion-header" id="heading4">
-              <button class="accordion-button px-4 collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4"><span
-                  class="mb-0 text-start fs-0 text-900 fw-medium">What are the benefits of using FinTech in
-                  e-commerce?</span></button>
-            </h2>
-            <div class="accordion-collapse collapse" id="collapse4" aria-labelledby="heading4"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body bg-primary-gradient px-4">FinTech in e-commerce offers several benefits,
-                including faster transaction times, enhanced security, lower transaction costs, and the ability to use
-                innovative payment methods like cryptocurrencies and buy-now-pay-later services.</div>
-            </div>
-          </div>
-          <div class="accordion-item mb-2 rounded overflow-hidden">
-            <h2 class="accordion-header" id="heading5">
-              <button class="accordion-button px-4 collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5"><span
-                  class="mb-0 text-start fs-0 text-900 fw-medium">What is blockchain technology and how does it relate
-                  to FinTech?</span></button>
-            </h2>
-            <div class="accordion-collapse collapse" id="collapse5" aria-labelledby="heading5"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body bg-primary-gradient px-4">Blockchain technology is a decentralized digital
-                ledger that records transactions across many computers. It's the backbone of cryptocurrencies and offers
-                transparent, secure, and tamper-proof transactions, which is revolutionizing FinTech by enhancing
-                security and efficiency.</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="accordion" id="accordionExample2">
-          <div class="accordion-item mb-2 rounded overflow-hidden">
-            <h2 class="accordion-header" id="heading6">
-              <button class="accordion-button px-4 collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapse6" aria-expanded="true" aria-controls="collapse6"><span
-                  class="mb-0 text-start fs-0 text-900 fw-medium">How do peer-to-peer (P2P) payment systems
-                  work?</span></button>
-            </h2>
-            <div class="accordion-collapse collapse" id="collapse6" aria-labelledby="heading6"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body bg-primary-gradient px-4">P2P payment systems allow users to transfer funds
-                from their bank account or credit card to another individual's account via a mobile app or website.
-                Examples include PayPal, Venmo, and Zelle. These systems often use encryption and other security
-                measures to protect transactions.</div>
-            </div>
-          </div>
-          <div class="accordion-item mb-2 rounded overflow-hidden">
-            <h2 class="accordion-header" id="heading7">
-              <button class="accordion-button px-4 collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapse7" aria-expanded="true" aria-controls="collapse7"><span
-                  class="mb-0 text-start fs-0 text-900 fw-medium">What are some common FinTech regulatory
-                  challenges?</span></button>
-            </h2>
-            <div class="accordion-collapse collapse" id="collapse7" aria-labelledby="heading7"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body bg-primary-gradient px-4">Common regulatory challenges in FinTech include data
-                privacy issues, ensuring compliance with anti-money laundering (AML) laws, dealing with international
-                regulations, and ensuring secure and fair transactions. Regulators are working to keep up with rapid
-                technological advancements in this sector.</div>
-            </div>
-          </div>
-          <div class="accordion-item mb-2 rounded overflow-hidden">
-            <h2 class="accordion-header" id="heading8">
-              <button class="accordion-button px-4 collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapse8" aria-expanded="true" aria-controls="collapse8"><span
-                  class="mb-0 text-start fs-0 text-900 fw-medium">What is a payment gateway and how does it
-                  work?</span></button>
-            </h2>
-            <div class="accordion-collapse collapse" id="collapse8" aria-labelledby="heading8"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body bg-primary-gradient px-4">A payment gateway is a merchant service that
-                processes credit card payments for e-commerce sites and traditional brick-and-mortar stores. It securely
-                authorizes the transfer of funds between buyers and sellers, ensuring that the transaction is completed
-                efficiently and securely.</div>
-            </div>
-          </div>
-          <div class="accordion-item mb-2 rounded overflow-hidden">
-            <h2 class="accordion-header" id="heading9">
-              <button class="accordion-button px-4 collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#collapse9" aria-expanded="true" aria-controls="collapse9"><span
-                  class="mb-0 text-start fs-0 text-900 fw-medium">What is a chargeback and how can it be
-                  managed?</span></button>
-            </h2>
-            <div class="accordion-collapse collapse" id="collapse9" aria-labelledby="heading9"
-              data-bs-parent="#accordionExample">
-              <div class="accordion-body bg-primary-gradient px-4">A chargeback occurs when a cardholder disputes a
-                transaction and the amount is reversed. It can be managed by maintaining detailed records, ensuring
-                clear communication with customers,
 
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section id="clients">
-      
-        <div class="container">
-          <div class="row">
-            <div class="col-md-11 col-lg-6 col-xl-4 col-xxl-3">
-              <h4 class="text-danger text-uppercase">Testimonial</h4>
-              <h1 class="font-cursive fw-normal mb-5">Our Awesome <br />Clients</h1>
-            </div>
-            <div class="col-xxl-9">
-              <div class="position-relative offset-9 offset-sm-10 offset-lg-11 mb-3">
-                <a class="carousel-control-prev carousel-icon z-index-2" href="#carouselExampleDark" role="button"
-                  data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </a>
-                <a class="carousel-control-next carousel-icon z-index-2" href="#carouselExampleDark" role="button"
-                  data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </a>
-              </div>
-              <div class="carousel slide" id="carouselExampleDark" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="10000">
-                    <div class="row h-100 mx-1 mb-5 mt-3 gx-md-2 gx-lg-4">
-                      <div class="col-md-4 mb-5 mb-md-0">
-                        <div class="card card-span h-100 shadow-primary">
-                          <div class="card-body my-3">
-                            <p class="mb-0 px-3 px-md-2 px-xxl-3">Using their innovative payment solutions has drastically
-                              improved our transaction processing time and customer satisfaction. Their support team is
-                              exceptional!</p>
-                            <div class="align-items-xl-center d-block d-xl-flex px-3 mt-3 align-self-end">
-                              <img class="img-fluid me-3 me-md-2 me-lg-3" src="assets/img/gallery/client1.png" width="50"
-                                alt="Client 1" />
-                              <div class="flex-1 align-items-center pt-2">
-                                <h6 class="mb-0">Alex Johnson</h6>
-                                <p class="mb-0 text-muted">CEO, FinCorp</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4 mb-5 mb-md-0">
-                        <div class="card card-span h-100 shadow-primary">
-                          <div class="card-body my-3">
-                            <p class="mb-0 px-3 px-md-2 px-xxl-3">Their platform has been a game-changer for our business,
-                              enabling seamless integration with multiple payment gateways and providing real-time analytics.
-                            </p>
-                            <div class="align-items-xl-center d-block d-xl-flex px-3 mt-3 align-self-end">
-                              <img class="img-fluid me-3 me-md-2 me-lg-3" src="assets/img/gallery/client2.png" width="50"
-                                alt="Client 2" />
-                              <div class="flex-1 align-items-center pt-2">
-                                <h6 class="mb-0">Lisa Wong</h6>
-                                <p class="mb-0 text-muted">CTO, TechSolutions</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4 mb-5 mb-md-0">
-                        <div class="card card-span h-100 shadow-primary">
-                          <div class="card-body my-3">
-                            <p class="mb-0 px-3 px-md-2 px-xxl-3">Their customer service is top-notch, always available to
-                              assist us with any issues. The technology is reliable and secure, meeting all our needs.</p>
-                            <div class="align-items-xl-center d-block d-xl-flex px-3 mt-3 align-self-end">
-                              <img class="img-fluid me-3 me-md-2 me-lg-3" src="assets/img/gallery/client3.png" width="50"
-                                alt="Client 3" />
-                              <div class="flex-1 align-items-center pt-2">
-                                <h6 class="mb-0">Michael Brown</h6>
-                                <p class="mb-0 text-muted">Founder, StartupX</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item" data-bs-interval="2000">
-                    <div class="row h-100 mx-1 mb-5 mt-3 gx-md-2 gx-lg-4">
-                      <div class="col-md-4 mb-5 mb-md-0">
-                        <div class="card card-span h-100 shadow-primary">
-                          <div class="card-body my-3">
-                            <p class="mb-0 px-3 px-md-2 px-xxl-3">Their innovative solutions have streamlined our financial
-                              operations and enhanced our overall efficiency. Highly recommend their services!</p>
-                            <div class="align-items-xl-center d-block d-xl-flex px-3 mt-3 align-self-end">
-                              <img class="img-fluid me-3 me-md-2 me-lg-3" src="assets/img/gallery/client4.png" width="50"
-                                alt="Client 4" />
-                              <div class="flex-1 align-items-center pt-2">
-                                <h6 class="mb-0">Sophia Martinez</h6>
-                                <p class="mb-0 text-muted">COO, Innovatech</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4 mb-5 mb-md-0">
-                        <div class="card card-span h-100 shadow-primary">
-                          <div class="card-body my-3">
-                            <p class="mb-0 px-3 px-md-2 px-xxl-3">The best FinTech solution we have used! Their platform is
-                              user-friendly, and their customer support is always ready to help.</p>
-                            <div class="align-items-xl-center d-block d-xl-flex px-3 mt-3 align-self-end">
-                              <img class="img-fluid me-3 me-md-2 me-lg-3" src="assets/img/gallery/client5.png" width="50"
-                                alt="Client 5" />
-                              <div class="flex-1 align-items-center pt-2">
-                                <h6 class="mb-0">Daniel Williams</h6>
-                                <p class="mb-0 text-muted">Finance Manager, NextGen Solutions</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4 mb-5 mb-md-0">
-                        <div class="card card-span h-100 shadow-primary">
-                          <div class="card-body my-3">
-                            <p class="mb-0 px-3 px-md-2 px-xxl-3">Their expertise and innovative solutions have helped us
-                              scale our payment processing capabilities effortlessly.</p>
-                            <div class="align-items-xl-center d-block d-xl-flex px-3 mt-3 align-self-end">
-                              <img class="img-fluid me-3 me-md-2 me-lg-3" src="assets/img/gallery/client6.png" width="50"
-                                alt="Client 6" />
-                              <div class="flex-1 align-items-center pt-2">
-                                <h6 class="mb-0">Emily Clark</h6>
-                                <p class="mb-0 text-muted">CFO, FutureTech</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="row h-100 mx-1 mb-5 mt-3 gx-md-2 gx-lg-4">
-                      <div class="col-md-4 mb-5 mb-md-0">
-                        <div class="card card-span h-100 shadow-primary">
-                          <div class="card-body my-3">
-                            <p class="mb-0 px-3 px-md-2 px-xxl-3">Their innovative payment solutions have drastically improved
-                              our transaction processing time and customer satisfaction. Their support team is exceptional!
-                            </p>
-                            <div class="align-items-xl-center d-block d-xl-flex px-3 mt-3 align-self-end">
-                              <img class="img-fluid me-3 me-md-2 me-lg-3" src="assets/img/gallery/client1.png" width="50"
-                                alt="Client 1" />
-                              <div class="flex-1 align-items-center pt-2">
-                                <h6 class="mb-0">Alex Johnson</h6>
-                                <p class="mb-0 text-muted">CEO, FinCorp</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4 mb-5 mb-md-0">
-                        <div class="card card-span h-100 shadow-primary">
-                          <div class="card-body my-3">
-                            <p class="mb-0 px-3 px-md-2 px-xxl-3">Their platform has been a game-changer for our business,
-                              enabling seamless integration with multiple payment gateways and providing real-time analytics.
-                            </p>
-                            <div class="align-items-xl-center d-block d-xl-flex px-3 mt-3 align-self-end">
-                              <img class="img-fluid me-3 me-md-2 me-lg-3" src="assets/img/gallery/client2.png" width="50"
-                                alt="Client 2" />
-                              <div class="flex-1 align-items-center pt-2">
-                                <h6 class="mb-0">Lisa Wong</h6>
-                                <p class="mb-0 text-muted">CTO, TechSolutions</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-4 mb-5 mb-md-0">
-                        <div class="card card-span h-100 shadow-primary">
-                          <div class="card-body my-3">
-                            <p class="mb-0 px-3 px-md-2 px-xxl-3">Their customer service is top-notch, always available to
-                              assist us with any issues. The technology is reliable and secure, meeting all our needs.</p>
-                            <div class="align-items-xl-center d-block d-xl-flex px-3 mt-3 align-self-end">
-                              <img class="img-fluid me-3 me-md-2 me-lg-3" src="assets/img/gallery/client3.png" width="50"
-                                alt="Client 3" />
-                              <div class="flex-1 align-items-center pt-2">
-                                <h6 class="mb-0">Michael Brown</h6>
-                                <p class="mb-0 text-muted">Founder, StartupX</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- Add more carousel items as needed -->
+    <!-- Health Bot Modal -->
+    <div class="modal fade" id="healthBotModal" tabindex="-1" role="dialog" aria-labelledby="healthBotModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="healthBotModalLabel">Health Bot</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end of .container-->
-      
-      </section>
-
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
-
-      <section>
-        <div class="bg-holder" style="background-image:url(assets/img/gallery/footer-bg.png);background-position:left;background-size:contain;padding:5px 3px;">
-        </div>
-        <!--/.bg-holder-->
-
-        <div class="container">
-          <div class="row min-vh-lg-50 min-vh-xl-75">
-            <div class="col-lg-6 col-xl-5 my-2 py-9 d-none d-lg-block">
-              <div class="card card-span bg-transparent border-start border-primary border-5 mt-3">
-                <div class="card-body">
-                  <p class="text-light fs-2 lh-lg px-lg-3">We provide traffic management consultants so you get started quickly, contact us for a quote today!</p>
+                <div class="modal-body">
+                    <iframe src="https://webchat.botframework.com/embed/healthbot-7rotu1x?s=c6vJIsZ3RW0.NGxmC9iumqbcdQkXHEmnygSW11spbZrFbce8QHQcpy8"></iframe>
                 </div>
-              </div>
             </div>
-            <div class="col-lg-6 col-xl-5 mb-3">
-              <div class="card card-span shadow py-4 px-5">
-                <div class="card-body">
-                  <form class="row g-3 align-items-center">
-                    <div class="mb-3">
-                      <label class="form-label" for="formGroupExampleInput">Name</label>
-                      <input class="form-control form-traffico-control" id="formGroupExampleInput" type="text" placeholder="Name" />
-                    </div>
-                    <div class="mb-3">
-                      <label class="form-label" for="formGroupExampleInput2">Email address</label>
-                      <input class="form-control form-traffico-control" id="formGroupExampleInput2" type="text" placeholder="Your email address" />
-                    </div>
-                    <div class="col-12">
-                      <button class="btn btn-primary" type="submit">GET STARTED
-                        <svg class="bi bi-arrow-right ms-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
-                        </svg>
-                      </button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </section>
+    </div>
 
+    <!-- Health Bot Button -->
+    <button class="healthbot-btn" data-toggle="modal" data-target="#healthBotModal">💬</button>
 
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="py-5">
-
-        <div class="container">
-          <div class="row flex-center">
-            <div class="col-md-6 col-xl-8 order-0">
-              <p class="text-center text-md-start">All rights Reserved &copy; NITHIN YADAV MASHAM, 2021</p>
-            
-        </div>
-        <!-- end of .container-->
-
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
-
-    </main>
-    <!-- ===============================================-->
-    <!--    End of Main Content-->
-    <!-- ===============================================-->
-
-
-
-
-    <!-- ===============================================-->
-    <!--    JavaScripts-->
-    <!-- ===============================================-->
-    <script src="vendors/@popperjs/popper.min.js"></script>
-    <script src="vendors/bootstrap/bootstrap.min.js"></script>
-    <script src="vendors/is/is.min.js"></script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
-    <script src="vendors/fontawesome/all.min.js"></script>
-    <script src="assets/js/theme.js"></script>
-
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Rubik:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
-  </body>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 
 </html>
